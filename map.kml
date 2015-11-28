@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Areas de risco sao carlos</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>São Carlos</name>
+			<Placemark>
+				<name>Ponto 1</name>
+				<styleUrl>#icon-seq-0-0-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-47.9120636,-22.0184984,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Area2</name>
+				<styleUrl>#poly-EEFF00-1-153-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>-47.9000473,-21.998863000000004,0.0 -47.9008198,-21.9989028,0.0 -47.90114160000001,-21.9993604,0.0 -47.9010558,-22.0002955,0.0 -47.901248900000006,-22.0009122,0.0 -47.901485,-22.0017876,0.0 -47.9019141,-22.002324800000004,0.0 -47.902472,-22.002663000000002,0.0 -47.9026222,-22.003140400000003,0.0 -47.9021931,-22.0038368,0.0 -47.901055799999995,-22.004931,0.0 -47.89974689999999,-22.004990700000004,0.0 -47.8990173,-22.0042148,0.0 -47.8988886,-22.0031404,0.0 -47.8991246,-22.002364600000003,0.0 -47.899446499999996,-22.0014693,0.0 -47.8990173,-22.0007332,0.0 -47.8984165,-22.0000766,0.0 -47.8976655,-21.999738399999995,0.0 -47.8972793,-21.9990023,0.0 -47.897644,-21.9984253,0.0 -47.8984165,-21.9982463,0.0 -47.8990817,-21.9985447,0.0 -47.899661099999996,-21.998942600000003,0.0 -47.9000473,-21.998863000000004,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Style id='icon-seq-0-0-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=A|FF0000|000000</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-seq-0-0-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://chart.googleapis.com/chart?chst=d_map_pin_letter&amp;chld=A|FF0000|000000</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-seq-0-0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-seq-0-0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-seq-0-0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-EEFF00-1-153-nodesc-normal'>
+			<LineStyle>
+				<color>ff00FFEE</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>9900FFEE</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-EEFF00-1-153-nodesc-highlight'>
+			<LineStyle>
+				<color>ff00FFEE</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>9900FFEE</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-EEFF00-1-153-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-EEFF00-1-153-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-EEFF00-1-153-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

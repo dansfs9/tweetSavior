@@ -1,0 +1,27 @@
+{
+  "name": "twittersocket",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.10.1",
+    "cloudant": "^1.3.0",
+    "cookie-parser": "~1.3.3",
+    "cors": "^2.5.3",
+    "debug": "~2.1.1",
+    "ejs": "~2.1.4",
+    "express": "~4.11.0",
+    "forever": "^0.13.0",
+    "moment": "^2.9.0",
+    "mongoose": "^3.8.21",
+    "morgan": "~1.5.1",
+    "node-schedule": "^0.1.15",
+    "request": "^2.51.0",
+    "serve-favicon": "~2.2.0",
+    "socket.io": "^1.3.4",
+    "twitter": "^1.2.1",
+    "winston": "^0.9.0"
+  }
+}
